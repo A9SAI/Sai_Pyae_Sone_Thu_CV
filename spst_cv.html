@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Pyae Sone Thu - Modern Graphic CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F5F8FA; /* Very light blue-gray for background */
+            color: #2C3E50; /* Dark Charcoal for primary text */
+        }
+        .section-heading {
+            font-size: 1.8rem; /* Larger for impact */
+            font-weight: 700; /* Extra bold */
+            color: #34495E; /* Slightly softer dark blue-gray */
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.75rem; /* More space for the underline */
+        }
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 60px; /* Short, deliberate underline */
+            height: 4px; /* Thicker underline */
+            background-color: #3498DB; /* Professional Blue accent */
+            border-radius: 2px;
+        }
+        .accent-color {
+            color: #3498DB; /* Professional Blue for accents */
+        }
+        .text-subtle {
+            color: #7F8C8D; /* Medium Grey for subtle text */
+        }
+        .skill-tag {
+            background-color: #E0E6E9; /* Light Grey-blue */
+            color: #4A6572; /* Darker Grey-blue */
+            padding: 0.4rem 0.9rem;
+            border-radius: 0.375rem; /* rounded-md */
+            font-size: 0.9rem;
+            font-weight: 500; /* Medium weight */
+            transition: background-color 0.2s ease-in-out;
+        }
+        .skill-tag:hover {
+            background-color: #BDC3C7; /* Slightly darker on hover */
+            color: #FFFFFF;
+        }
+        .cv-card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem; /* More rounded corners */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Softer, wider shadow */
+            padding: 2.5rem; /* Increased padding */
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        .contact-item span {
+            font-size: 1.25rem; /* Larger icons */
+            margin-right: 0.75rem;
+            line-height: 1; /* Align icon vertically */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 md:p-8 lg:p-12 max-w-7xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Left Column: Profile, Contact, Skills, Education -->
+            <div class="md:col-span-1 space-y-8">
+                <!-- Profile and Contact -->
+                <div class="cv-card flex flex-col items-center text-center">
+                    <div class="w-36 h-36 bg-gradient-to-br from-blue-300 to-blue-500 rounded-full flex items-center justify-center mb-6 overflow-hidden border-4 border-white shadow-md">
+                        <img src="data:image/jpeg;base64,{{DSC_0590 (2).jpg-44063c66-ca22-41c4-8e35-e8449197152a}}" alt="Sai Pyae Sone Thu Profile" class="object-cover w-full h-full">
+                    </div>
+                    <h1 class="text-4xl font-bold text-[#2C3E50] mb-2 leading-tight">Sai Pyae Sone Thu</h1>
+                    <p class="text-xl font-medium text-text-subtle mb-6">Information Technology Professional</p>
+                    <div class="text-left w-full mt-4 space-y-3">
+                        <div class="contact-item">
+                            <span class="accent-color">📞</span> <p class="text-lg">+959 966 969 336</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="accent-color">📧</span> <p class="text-lg">saipyaesonethu@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="accent-color">📍</span> <p class="text-lg">TharSone Village, Latpatan Township, Bago Division, Myanmar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="cv-card">
+                    <h2 class="section-heading">Skills</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Random Forest</span>
+                        <span class="skill-tag">Decision Trees</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Visual Studio</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">AWS EC2</span>
+                        <span class="skill-tag">Windows Server 2012</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="cv-card">
+                    <h2 class="section-heading">Education</h2>
+                    <div class="mb-5 last:mb-0">
+                        <h3 class="text-lg font-semibold text-[#34495E] mb-1">Bachelor of Engineering in Information Technology</h3>
+                        <p class="text-text-subtle">Technological University of Mawlamyine, Information Technology</p>
+                        <p class="text-sm text-gray-500 mt-1">2015 – 2024</p>
+                    </div>
+                    <div class="mb-5 last:mb-0">
+                        <h3 class="text-lg font-semibold text-[#34495E] mb-1">Google IT Support Specialization</h3>
+                        <p class="text-text-subtle">Coursera</p>
+                        <p class="text-sm text-gray-500 mt-1">2020</p>
+                    </div>
+                    <div class="mb-5 last:mb-0">
+                        <h3 class="text-lg font-semibold text-[#34495E] mb-1">Diploma in Computer Networks</h3>
+                        <p class="text-text-subtle">Institute of Commercial Management</p>
+                        <p class="text-sm text-gray-500 mt-1">2021</p>
+                    </div>
+                    <div class="last:mb-0">
+                        <h3 class="text-lg font-semibold text-[#34495E] mb-1">Diploma in English</h3>
+                        <p class="text-text-subtle">RVI Institute</p>
+                        <p class="text-sm text-gray-500 mt-1">2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Summary, Work Experience, Projects -->
+            <div class="md:col-span-2 space-y-8">
+                <!-- Summary -->
+                <div class="cv-card">
+                    <h2 class="section-heading">Summary</h2>
+                    <p id="current-summary" class="text-gray-700 leading-relaxed mb-6">
+                        Highly motivated and results-oriented Information Technology professional with a strong foundation in programming, data analysis, and machine learning. Experienced in technical support, network observation, and project management, with a proven ability to troubleshoot complex software issues, provide user training, and contribute to system improvements. Eager to apply technical expertise and problem-solving skills to contribute to innovative projects in a dynamic environment.
+                    </p>
+                    <button id="generateSummaryBtn" class="bg-[#3498DB] text-white px-5 py-2.5 rounded-lg font-medium tracking-wide hover:bg-blue-600 transition duration-300 transform hover:scale-105">
+                        ✨ Generate AI Summary
+                    </button>
+                    <div id="generatedSummary" class="mt-6 p-5 bg-blue-50 border border-blue-200 rounded-lg hidden">
+                        <p class="font-semibold text-blue-800 mb-3">AI-Generated Summary:</p>
+                        <p id="summaryContent" class="text-blue-700 leading-relaxed"></p>
+                        <div id="summaryLoader" class="flex items-center justify-center mt-4 hidden">
+                            <svg class="animate-spin h-6 w-6 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            <span class="ml-3 text-blue-500 font-medium">Generating...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="cv-card">
+                    <h2 class="section-heading">Work Experience</h2>
+                    <div class="mb-8 pb-8 border-b border-gray-200 last:border-b-0">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold accent-color">Intern</h3>
+                            <span class="text-text-subtle text-sm font-medium">April 2024 – May 2024</span>
+                        </div>
+                        <p class="text-[#34495E] font-medium mb-3">Auto Exchange (Mawlamyine), Myanmar Post and Telecommunication Co., Ltd.</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Observed mobile station operations to gain insights into telecommunication service maintenance and management.</li>
+                            <li>Shadowed technicians to understand network monitoring, troubleshooting, and mobile communication systems.</li>
+                            <li>Participated in discussions on telecommunication challenges in rural areas, contributing ideas for solutions.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-8 pb-8 border-b border-gray-200 last:border-b-0">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold accent-color">Software Support Technician</h3>
+                            <span class="text-text-subtle text-sm font-medium">May 2022 – November 2022</span>
+                        </div>
+                        <p class="text-[#34495E] font-medium mb-3">Galaxy Software (Mawlamyine Branch)</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Provided technical support to customers via phone, email, and chat, effectively diagnosing and resolving software issues.</li>
+                            <li>Assisted with software installation, configuration, and updates, ensuring smooth user experiences.</li>
+                            <li>Collaborated with development and engineering teams to address complex issues and escalate unresolved problems.</li>
+                            <li>Conducted training sessions for end-users on software functionality, troubleshooting, and best practices.</li>
+                            <li>Contributed to software improvements by gathering and reporting user feedback to relevant teams.</li>
+                        </ul>
+                    </div>
+                    <div class="last:mb-0 last:pb-0 last:border-b-0">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold accent-color">Information Committee Officer</h3>
+                            <span class="text-text-subtle text-sm font-medium">January 2019</span>
+                        </div>
+                        <p class="text-[#34495E] font-medium mb-3">Students' Fair and Career Development (Mawlamyine)</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Managed information flow and communication for the Students' Fair and Career Development 2019.</li>
+                            <li>Developed strategies for efficient information sharing among attendees, speakers, and organizers.</li>
+                            <li>Organized and distributed event schedules, speaker profiles, and updates, significantly enhancing the event experience.</li>
+                            <li>Contributed to seamless event execution, receiving positive feedback for clear and timely communication.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="cv-card">
+                    <h2 class="section-heading">Projects</h2>
+                    <div class="mb-8 pb-8 border-b border-gray-200 last:mb-0 last:pb-0 last:border-b-0">
+                        <h3 class="text-xl font-semibold accent-color mb-2">Predicting the Outcomes of Football Matches Using Random Forest Classifier</h3>
+                        <p class="text-[#34495E] mb-3 font-medium">Final Year Thesis Project</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Built a predictive model using the Random Forest classifier in Jupyter Notebook.</li>
+                            <li>Designed an interactive web application with Streamlit in Visual Studio for result visualization.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-8 pb-8 border-b border-gray-200 last:mb-0 last:pb-0 last:border-b-0">
+                        <h3 class="text-xl font-semibold accent-color mb-2">Online Movie Tickets Booking System on Cloud Technology</h3>
+                        <p class="text-[#34495E] mb-3 font-medium">Fifth Year Project</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Developed a comprehensive online ticket booking system.</li>
+                            <li>Designed the user interface using HTML, Bootstrap, CSS, and JavaScript.</li>
+                            <li>Implemented backend functionality using PHP.</li>
+                        </ul>
+                    </div>
+                    <div class="last:mb-0 last:pb-0 last:border-b-0">
+                        <h3 class="text-xl font-semibold accent-color mb-2">Window Server on Cloud Technology</h3>
+                        <p class="text-[#34495E] mb-3 font-medium">Fourth Year Project</p>
+                        <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                            <li>Created an AWS EC2 instance and installed Windows Server 2012.</li>
+                            <li>Successfully published a Moodle website hosted on the cloud.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('generateSummaryBtn').addEventListener('click', async () => {
+            const currentSummaryElement = document.getElementById('current-summary');
+            const generatedSummaryContainer = document.getElementById('generatedSummary');
+            const summaryContentElement = document.getElementById('summaryContent');
+            const summaryLoader = document.getElementById('summaryLoader');
+
+            // Hide existing summary and show loader/container
+            currentSummaryElement.style.display = 'none';
+            generatedSummaryContainer.classList.remove('hidden');
+            summaryLoader.classList.remove('hidden');
+            summaryContentElement.textContent = ''; // Clear previous content
+
+            // Extract relevant CV content
+            // Select elements based on their section IDs and structure in the updated CV
+            const getWorkExperienceText = () => {
+                const sections = document.querySelectorAll('#WorkExperience .cv-card > div');
+                let text = [];
+                sections.forEach(section => {
+                    const title = section.querySelector('h3')?.textContent.trim();
+                    const company = section.querySelector('p:nth-of-type(1)')?.textContent.trim();
+                    const bullets = Array.from(section.querySelectorAll('ul li')).map(li => li.textContent.trim());
+                    if (title && company) {
+                        text.push(`Job: ${title} at ${company}\n  - ${bullets.join('\n  - ')}`);
+                    }
+                });
+                return text.join('\n\n');
+            };
+
+            const getSkillsText = () => {
+                const skillSpans = document.querySelectorAll('#Skills .skill-tag');
+                return Array.from(skillSpans).map(span => span.textContent.trim()).join(', ');
+            };
+
+            const getProjectsText = () => {
+                const sections = document.querySelectorAll('#Projects .cv-card > div');
+                let text = [];
+                sections.forEach(section => {
+                    const title = section.querySelector('h3')?.textContent.trim();
+                    const type = section.querySelector('p:nth-of-type(1)')?.textContent.trim();
+                    const bullets = Array.from(section.querySelectorAll('ul li')).map(li => li.textContent.trim());
+                    if (title && type) {
+                        text.push(`Project: ${title} (${type})\n  - ${bullets.join('\n  - ')}`);
+                    }
+                });
+                return text.join('\n\n');
+            };
+
+            const workExperience = getWorkExperienceText();
+            const skills = getSkillsText();
+            const projects = getProjectsText();
+
+
+            const prompt = `Generate a concise, professional, and impactful summary for the following CV, highlighting key skills, experiences, and achievements. Focus on information technology, data analysis, and project management roles. The summary should be suitable for a job application and be no longer than 3-4 sentences:\n\n` +
+                           `Work Experience:\n${workExperience}\n\n` +
+                           `Skills:\n${skills}\n\n` +
+                           `Projects:\n${projects}`;
+
+            try {
+                let chatHistory = [];
+                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                const payload = { contents: chatHistory };
+                const apiKey = ""; // Canvas will provide this in runtime
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const result = await response.json();
+
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    const text = result.candidates[0].content.parts[0].text;
+                    summaryContentElement.textContent = text;
+                } else {
+                    summaryContentElement.textContent = "Failed to generate summary. Please try again.";
+                }
+            } catch (error) {
+                console.error("Error generating summary:", error);
+                summaryContentElement.textContent = "An error occurred while generating the summary.";
+            } finally {
+                summaryLoader.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
